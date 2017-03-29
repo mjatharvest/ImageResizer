@@ -43,7 +43,7 @@
 
     {{ forms.lightswitchField({
         label: 'Skip larger resulting images' | t,
-        instructions: 'If the resizing process results in a larger image that the previous, do not replace with larger file.' | t,
+        instructions: 'If the resizing process results in a larger image than the original, do not replace with the larger file.' | t,
         id: 'skipLarger',
         name: 'skipLarger',
         on: settings.skipLarger,
